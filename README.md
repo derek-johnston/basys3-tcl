@@ -20,6 +20,8 @@ Board with a single command-line instruction.
 This guide will take you through the process of installing VDS as <br>
 well as the additional custom libraries provided here.
 
+[Read Installation Instructions](docs/installation.md)
+
 ## Usage Instruction
 
 ## Tutorials
