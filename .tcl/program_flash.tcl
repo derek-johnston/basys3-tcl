@@ -8,12 +8,12 @@
 #
 ###############################################################################
 
-source ./.tcl/init.tcl
-source ./.tcl/read_source_files.tcl
-source ./.tcl/synth_design.tcl
-source ./.tcl/optimize_design.tcl
-source ./.tcl/place_design.tcl
-source ./.tcl/route_design.tcl
-source ./.tcl/gen_bitstream.tcl
-source ./.tcl/upload_flash.tcl
-source ./.tcl/cleanup.tcl
+source D:/vivado/basys3-tcl/.tcl/init.tcl
+source D:/vivado/basys3-tcl/.tcl/read_source_files.tcl
+source D:/vivado/basys3-tcl/.tcl/synth_design.tcl
+source D:/vivado/basys3-tcl/.tcl/optimize_design.tcl
+source D:/vivado/basys3-tcl/.tcl/place_design.tcl
+source D:/vivado/basys3-tcl/.tcl/route_design.tcl
+source D:/vivado/basys3-tcl/.tcl/gen_bitstream.tcl
+source D:/vivado/basys3-tcl/.tcl/upload_flash.tcl
+source D:/vivado/basys3-tcl/.tcl/cleanup.tcl

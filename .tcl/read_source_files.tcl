@@ -6,5 +6,5 @@
 #   Import the Verilog and XDC files for the project.
 #
 ###############################################################################
-read_verilog    -verbose [ glob ./source/verilog/*.v ]
-read_xdc        -verbose [ glob ./source/constraints/*.xdc ]
+read_verilog    -verbose [ glob D:/vivado/basys3-tcl/source/verilog/*.v ]
+read_xdc        -verbose [ glob D:/vivado/basys3-tcl/source/constraints/*.xdc ]

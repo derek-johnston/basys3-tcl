@@ -11,3 +11,4 @@ file delete -force usage_statistics_webtalk.html
 file delete -force usage_statistics_webtalk.xml
 file delete -force .Xil
 file delete -force bitstreams
+exit
