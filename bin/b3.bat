@@ -16,14 +16,17 @@ IF %1==prog-qspi    goto PROGRAM_QSPI_FLASH
 
 :INIT_PROJECT
 echo Init Project
+call b3-init.bat %2
 goto END
 
 :BUILD_PROJECT
 echo Building Project
+call b3-build.bat
 goto END
 
 :PROGRAM_JTAG
 echo Programming FPGA via JTAG
+call b3-prog-jtag.bat
 goto END
 
 :PROGRAM_QSPI_FLASH
@@ -31,6 +34,5 @@ echo Programming FPGA via QSPI Flash Memory
 goto END
 
 :END
-echo Completed Successfully
 
 
